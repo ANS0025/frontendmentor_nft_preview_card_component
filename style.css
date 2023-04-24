@@ -35,13 +35,13 @@ main {
 	width: inherit;
 	height: inherit;
 	opacity: 0;
+	transition: 0.15s;
 }
 
 .overlay:hover {
 	/* background-color: #00FFF8; */
 	background-color: rgba(0, 255, 248, 0.5);
 	opacity: 1;
-	transition: 0.15s;
 	cursor: pointer;
 }
 
@@ -54,11 +54,11 @@ h1 {
 	font-size: 1.375rem;
 	line-height: 1.75rem;
 	color: #FFFFFF;
+	transition: 0.15s;
 }
 
 h1:hover {
 	color: #00FFF8;
-	transition: 0.15s;
 	cursor: pointer;
 }
 
@@ -135,10 +135,10 @@ p {
 
 .bio > div > span {
 	color: #FFFFFF;
+	transition: 0.15s;
 }
 
 .bio > div > span:hover {
 	color: #00FFF8;
-	transition: 0.15s;
 	cursor: pointer;
 }
